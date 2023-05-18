@@ -1,9 +1,6 @@
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
-// const ground = new Image();
-// ground.src = 'img/canvas.png'
-
 const foodImg = new Image();
 foodImg.src = 'img/food.png'
 
@@ -63,7 +60,6 @@ const eatTail = (head, arrSnake) => {
 }
 
 const drawGame = () => {
-    // ctx.drawImage(ground, 0, 0)
     ctx.fillStyle = '#f2d291'
     ctx.fillRect(0, 0, 608, 608)
 
